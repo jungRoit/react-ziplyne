@@ -1,0 +1,42 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  overflow: auto;
+  min-height: 100vh;
+}
+
+.cover-section {
+  display: flex;
+  flex:1;
+  flex-direction: column;
+  justify-content: space-between;
+  background-image: url('../assets/images/cover.png');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #C4ADF4;
+  min-height: 100vh;
+}
+
+.cover-header {
+  height: 60px;
+  background-color: #C4ADF4;
+  opacity: 0.5;
+}
+
+.cover-content {
+  min-height: 40vh;
+  background-color: #7246CE;
+  opacity: 0.7;
+}
+
+.content-section {
+  background-color: #ffffff;
+  min-height: 100vh;
+  display: flex;
+  flex: 1;
+}
+
+

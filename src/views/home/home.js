@@ -8,7 +8,18 @@ class Home extends React.Component {
   render() {
     return (
       <div className="container">
-        <h1>hello roit</h1>
+        <div className="cover-section">
+          <div className="cover-header">
+              header
+          </div>
+          <div className="cover-content">
+              content
+          </div>
+        </div>
+        <div className="content-section">
+        <h1>Rest</h1>
+
+        </div>
       </div>
     );
   }
