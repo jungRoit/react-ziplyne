@@ -2,6 +2,10 @@
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
+  .content-section {
+    min-height: 600px;
+  }
+
   .content-section-body {
     display: flex;
     flex-direction: column;
@@ -94,6 +98,10 @@
 
 
 @media only screen and (min-width: 600px) and (max-width: 768px) {
+  .content-section {
+    min-height: 640px;
+  }
+
   .nav-box {
     flex: 4
   }
@@ -155,3 +163,107 @@
     color: #262A94;
   }
 }
+
+@media only screen and (min-width: 768px) and (max-width: 1024px ) {
+  .content-section {
+    min-height: 640px;
+  }
+
+  .desktop-wrapper {
+    width: 100%;
+    height: 200px;
+    background-image: url('../assets/images/desktop.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: local; 
+    background-size: contain;
+    position: relative;
+    bottom: 0;
+    left: 0;
+  }
+
+ .content-section-left-title {
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .content-section-left {
+    display: flex;
+    flex: 1;
+  }
+
+  .content-section-right {
+    flex: 1;
+    flex-direction: column;
+  } 
+
+  
+  .cotent-left-title {
+    font-size: 24px;
+    padding: 0;
+  }
+
+  .cover-content-title {
+    font-size: 24px;
+  }
+  
+.diamond-box {
+    position: static;
+    width: 100%;
+    height: 300px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 48px 16px 0 0 ;
+  }
+
+  .paragraph {
+    font-size: 16px;
+    color: #262A94;
+  }
+ }
+
+ @media only screen and (min-width: 1025px) and (max-width:1200px) {
+  .content-section {
+    min-height: 640px;
+  }
+  
+  .desktop-wrapper {
+    width: 50vw;
+    height: 55vh;
+    background-size: cover;
+  }
+
+  .paragraph {
+    font-size: 20px;
+  }
+
+  .paragraph-wrapper {
+    width: 360px;
+    padding-left: 10px;
+  }
+
+  .diamond-box {
+    height: 65vh;
+    width: 45%;
+  }
+ }
+
+@media only screen and (min-width: 1200px) and (max-width:1440px) {
+  .paragraph {
+    font-size: 20px;
+  }
+
+  .paragraph-wrapper {
+    width: 360px;
+    padding-left: 10px;
+  }
+ }
+ /* 
+ @media only screen and (min-width: 1440)  {
+  .content-section {
+    min-height: 640px;
+  }
+ } */
+
+
