@@ -1,6 +1,6 @@
 import React from 'react';
 import Button from '../../components/Button';
-import Navbar from '../../components/Navbar'
+import Navbar from '../../components/Navbar';
 import { logo, exit } from '../../config/image';
 
 class Home extends React.Component {
@@ -21,19 +21,23 @@ class Home extends React.Component {
             </div>
             <div className="nav-box">
               <Navbar
-              navList={[
-                'Product',
-                "Solution",
-                'Pricing',
-                'Customer Stories',
-                'Resources'
-              ]}
-               />
+                navList={[
+                  'Product',
+                  'Solution',
+                  'Pricing',
+                  'Customer Stories',
+                  'Resources',
+                ]}
+              />
             </div>
             <div className="action-box">
-              <Button text="Request a Demo" backgroundColor="#7246CE" color="#ffffff"/>
+              <Button
+                text="Request a Demo"
+                backgroundColor="#7246CE"
+                color="#ffffff"
+              />
               <div className="exit-wrapper">
-              <img src={exit} className="img" />
+                <img src={exit} className="img" />
               </div>
             </div>
           </div>
@@ -45,7 +49,13 @@ class Home extends React.Component {
           </div>
         </div>
         <div className="content-section">
-          <h1>Rest</h1>
+          <div className="content-section-body">
+            <div className="content-section-left"></div>
+            <div className="content-section-right"></div>
+          </div>
+          <div className="content-section-footer">
+
+          </div>
         </div>
       </div>
     );
