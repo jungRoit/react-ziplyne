@@ -28,15 +28,17 @@
 .cover-content {
   display: flex;
   min-height: 40vh;
-  align-items: center;
+  align-items: flex-end;
   padding-left: 80px;
+  padding-bottom: 64px;
+  background-image: url('../assets/images/wave.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.7;
 }
 
 .cover-title {
   display: flex;
-  /* min-height: 20vh; */
-  background-color: #7246CE;
-  opacity: 0.7;
   align-items: center;
   padding-left: 80px;
 }

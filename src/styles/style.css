@@ -1,5 +1,5 @@
 .cover-cotent-title {
-  font-size: 32px;
+  font-size: 48px;
   color: #ffffff;
 }
 
@@ -28,4 +28,21 @@
   color: #ffffff;
   font-size: 32px;
   padding-bottom: 24px;
+}
+
+.cover-header {
+  background-color:rgba(196, 173, 244, 0.6);
+  box-shadow: 0 1px 1px 1px #7246CE;
+}
+
+.logo-box {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.nav-box {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.action-box {
+  background-color: rgba(255, 255, 255, 0.5);
 }
