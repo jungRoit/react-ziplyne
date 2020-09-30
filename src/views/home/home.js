@@ -1,7 +1,7 @@
 import React from 'react';
 import Button from '../../components/Button';
 import Navbar from '../../components/Navbar';
-import { logo, exit, desktop, diamond } from '../../config/image';
+import { logo, exit, hamburger, diamond } from '../../config/image';
 
 class Home extends React.Component {
   constructor(props) {
@@ -38,6 +38,11 @@ class Home extends React.Component {
               />
               <div className="exit-wrapper">
                 <img src={exit} className="img" />
+              </div>
+            </div>
+            <div className="hamburger-box">
+              <div className="hamburger-wrapper">
+                <img src={hamburger} className="img" />
               </div>
             </div>
           </div>

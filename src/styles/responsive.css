@@ -34,10 +34,6 @@
     justify-content: center;
   }
 
-  .content-section-left-image {
-  }
-
-
   .content-section-right {
     flex-direction: column;
   }
@@ -93,6 +89,12 @@
 
   .action-box {
     display: none;
+  }
+
+  .hamburger-box {
+    display: flex;
+    align-items: center;
+    padding-right: 24px;
   }
 }
 
