@@ -119,16 +119,15 @@
 .desktop-wrapper {
   display: flex;
   width: 50%;
-  height: 80vh;
+  height: 75vh;
   position: absolute;
   bottom: 50px;
-  left: 80px;
+  left: 60px;
   background-image: url('../assets/images/desktop.png');
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: local; 
   background-size: cover;
-
 }
 
 .diamond-box {
@@ -137,14 +136,18 @@
   position: absolute;
   bottom: 0;
   right: 0;
-  height: 500px;
-  width: 500px;
+  height: 80vh;
+  width: 50%;
   background-image: url('../assets/images/Diamond.png');
-  background-position: left bottom;
+  background-position: right 20px bottom 10px;
   background-repeat: no-repeat;
-  background-attachment: local; 
+  background-attachment: scroll; 
   background-size: contain;
   justify-content: center;
   align-items: center;
+}
 
+.paragraph-wrapper {
+  width: 480px;
+  word-wrap: break-word;
 }

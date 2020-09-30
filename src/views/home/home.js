@@ -67,9 +67,11 @@ class Home extends React.Component {
             </div>
             <div className="content-section-right">
               <div className="diamond-box">
-                <p> hello world</p>
-              {/* <img src={diamond} className="img" /> */}
-
+                <div className="paragraph-wrapper">
+                <p className="paragraph"> Lorem Ipsum Dolar sit Amet.Lorem Ipsum Dolar sit Amet.</p>
+                <p className="paragraph"> "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae</p>
+              
+                </div>
               </div>
             </div>
           </div>
