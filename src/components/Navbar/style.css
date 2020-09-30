@@ -1,0 +1,31 @@
+.navbar {
+  display: flex;
+  flex: 1;
+}
+
+.nav-list {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.nav-list a {
+  padding: 0;
+  text-decoration: none;
+}
+
+.nav-list a:hover .nav-item {
+  border-bottom: 2px solid #262A94;
+  padding-bottom: 0;
+}
+
+.nav-item {
+  font-size: 18px;
+  display: flex;
+  flex: 1;
+  list-style-type: none;
+  text-decoration: none;
+  color: #262A94;
+  padding: 10px;
+}

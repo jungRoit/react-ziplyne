@@ -2,3 +2,19 @@
   font-size: 32px;
   color: #ffffff;
 }
+
+.exit-wrapper {
+  height: 32px;
+  width: 32px;
+  margin-left: 10px;
+}
+
+.img {
+  height: 100%;
+  width: 100%;
+}
+
+.logo-wrapper {
+  height: 30px;
+  width: 100px;
+}

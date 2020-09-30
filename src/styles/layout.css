@@ -16,26 +16,20 @@
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-  background-color: #C4ADF4;
   min-height: 100vh;
 }
 
 .cover-header {
   height: 60px;
-  background-color: #C4ADF4;
-  opacity: 0.5;
+  display: flex;
+  flex-direction: row;
 }
 
 .cover-content {
   display: flex;
   min-height: 40vh;
-  background-color: #7246CE;
-  opacity: 0.7;
   align-items: center;
   padding-left: 80px;
-  /* background-image: url('../assets/images/wave.svg'); */
-  /* background-repeat: no-repeat; */
-  /* background-size: cover; */
 }
 
 .cover-title {
@@ -45,7 +39,6 @@
   opacity: 0.7;
   align-items: center;
   padding-left: 80px;
-  margin: 0;
 }
 
 .title-box {
@@ -60,4 +53,25 @@
   flex: 1;
 }
 
+.logo-box {
+  display: flex;
+  flex:1;
+  align-items: center;
+  justify-content: flex-start;
+  padding-left: 24px;
+}
 
+.nav-box {
+  display: flex;
+  flex:2;
+  align-items: center;
+}
+
+.action-box {
+  display: flex;
+  flex:1;
+  align-items: center;
+  justify-content: flex-end;
+  padding-right: 24px;
+
+}
