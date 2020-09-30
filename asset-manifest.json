@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/react-ziplyne/static/css/main.b723b55e.chunk.css",
+    "main.js": "/react-ziplyne/static/js/main.5048f4ef.chunk.js",
+    "main.js.map": "/react-ziplyne/static/js/main.5048f4ef.chunk.js.map",
+    "runtime-main.js": "/react-ziplyne/static/js/runtime-main.c227be82.js",
+    "runtime-main.js.map": "/react-ziplyne/static/js/runtime-main.c227be82.js.map",
+    "static/js/2.6034a8dd.chunk.js": "/react-ziplyne/static/js/2.6034a8dd.chunk.js",
+    "static/js/2.6034a8dd.chunk.js.map": "/react-ziplyne/static/js/2.6034a8dd.chunk.js.map",
+    "index.html": "/react-ziplyne/index.html",
+    "precache-manifest.5ee0caeb4d73bcd9bf8b9d89a8dfb45c.js": "/react-ziplyne/precache-manifest.5ee0caeb4d73bcd9bf8b9d89a8dfb45c.js",
+    "service-worker.js": "/react-ziplyne/service-worker.js",
+    "static/css/main.b723b55e.chunk.css.map": "/react-ziplyne/static/css/main.b723b55e.chunk.css.map",
+    "static/js/2.6034a8dd.chunk.js.LICENSE.txt": "/react-ziplyne/static/js/2.6034a8dd.chunk.js.LICENSE.txt",
+    "static/media/Diamond.png": "/react-ziplyne/static/media/Diamond.9502599b.png",
+    "static/media/cover.png": "/react-ziplyne/static/media/cover.d4d30fe8.png",
+    "static/media/desktop.png": "/react-ziplyne/static/media/desktop.9dbb9be6.png",
+    "static/media/logo.png": "/react-ziplyne/static/media/logo.72e77b20.png",
+    "static/media/layout.css": "/react-ziplyne/static/media/wave.4bed7c96.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c227be82.js",
+    "static/js/2.6034a8dd.chunk.js",
+    "static/css/main.b723b55e.chunk.css",
+    "static/js/main.5048f4ef.chunk.js"
+  ]
+}
