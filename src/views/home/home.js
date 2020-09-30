@@ -1,7 +1,7 @@
 import React from 'react';
 import Button from '../../components/Button';
 import Navbar from '../../components/Navbar';
-import { logo, exit } from '../../config/image';
+import { logo, exit, desktop, diamond } from '../../config/image';
 
 class Home extends React.Component {
   constructor(props) {
@@ -50,12 +50,30 @@ class Home extends React.Component {
         </div>
         <div className="content-section">
           <div className="content-section-body">
-            <div className="content-section-left"></div>
-            <div className="content-section-right"></div>
-          </div>
-          <div className="content-section-footer">
+            <div className="content-section-left">
+              <div className="content-section-left-title">
+                <div className="title-box">
+                  <h1 className="cotent-left-title">
+                    Lorem Ipsum Dolar Lorem
+                  </h1>
+                  <h1 className="cotent-left-title">Ipsum Dolar Amet.</h1>
+                </div>
+              </div>
+              <div className="content-section-left-image">
+                <div className="desktop-wrapper">
+                {/* <img src={desktop} className="img" /> */}
+                </div>
+              </div>
+            </div>
+            <div className="content-section-right">
+              <div className="diamond-box">
+                <p> hello world</p>
+              {/* <img src={diamond} className="img" /> */}
 
+              </div>
+            </div>
           </div>
+          <div className="content-section-footer"></div>
         </div>
       </div>
     );
