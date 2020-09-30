@@ -43,8 +43,8 @@ class Home extends React.Component {
           </div>
           <div className="cover-content">
             <div className="title-box">
-              <h1 className="cover-cotent-title">Lorem Ipsum Dolar Lorem</h1>
-              <h1 className="cover-cotent-title">Ipsum Dolar Amet.</h1>
+              <h1 className="cover-content-title">Lorem Ipsum Dolar Lorem</h1>
+              <h1 className="cover-content-title">Ipsum Dolar Amet.</h1>
             </div>
           </div>
         </div>
@@ -70,7 +70,11 @@ class Home extends React.Component {
                 <div className="paragraph-wrapper">
                 <p className="paragraph"> Lorem Ipsum Dolar sit Amet.Lorem Ipsum Dolar sit Amet.</p>
                 <p className="paragraph"> "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae</p>
-              
+                </div>
+              </div>
+              <div className="diamond-responsive">
+              <div className="diamond-image">
+                <img src={diamond} className="img" />
                 </div>
               </div>
             </div>

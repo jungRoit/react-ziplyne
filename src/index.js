@@ -4,6 +4,8 @@ import ReactDOM from 'react-dom';
 import './styles/reset.css';
 import './styles/layout.css';
 import './styles/style.css';
+import './styles/responsive.css';
+
 
 import App from './App';
 import * as serviceWorker from './serviceWorker';

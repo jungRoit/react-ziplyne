@@ -153,3 +153,7 @@
   width: 480px;
   word-wrap: break-word;
 }
+
+.diamond-responsive {
+  display: none;
+}

@@ -1,0 +1,157 @@
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .content-section-body {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .content-section {
+    padding-top: 24px;
+  }
+
+  .desktop-wrapper {
+    width: 100%;
+    height: 200px;
+    background-image: url('../assets/images/desktop.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: local; 
+    background-size: contain;
+    position: relative;
+    bottom: 0;
+    left: 0;
+  }
+
+  .content-section-left-title {
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .content-section-left-image {
+  }
+
+
+  .content-section-right {
+    flex-direction: column;
+  }
+
+  .cotent-left-title {
+    font-size: 24px;
+  }
+
+  .cover-content-title {
+    font-size: 24px;
+  }
+  
+  .diamond-box {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-image: none;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0;
+  }
+
+  .diamond-responsive {
+    display: flex;
+    width: 100%;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .diamond-image {
+    display: flex;;
+    display: block;
+    height: 100px;
+    width: 100px;
+  }
+  
+  .paragraph-wrapper {
+    width: 100%;
+    word-wrap: break-word;
+    padding: 0 16px;
+  }
+
+  .paragraph  {
+    color: #262A94;
+    font-size: 16px;
+  }
+
+  .nav-box {
+    display: none;
+  }
+
+  .action-box {
+    display: none;
+  }
+}
+
+
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+  .nav-box {
+    flex: 4
+  }
+
+  .action-box {
+    display: none;
+  }
+
+  .desktop-wrapper {
+    width: 100%;
+    height: 200px;
+    background-image: url('../assets/images/desktop.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: local; 
+    background-size: contain;
+    position: relative;
+    bottom: 0;
+    left: 0;
+  }
+
+ .content-section-left-title {
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .content-section-left {
+    display: flex;
+    flex: 1;
+  }
+
+  .content-section-right {
+    flex: 1;
+    flex-direction: column;
+  } 
+
+  
+  .cotent-left-title {
+    font-size: 24px;
+    padding: 0;
+  }
+
+  .cover-content-title {
+    font-size: 24px;
+  }
+  
+.diamond-box {
+    position: static;
+    width: 300px;
+    height: 300px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 24px 0 0 0;
+  }
+
+  .paragraph {
+    font-size: 16px;
+    color: #262A94;
+  }
+}
